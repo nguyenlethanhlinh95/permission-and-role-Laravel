@@ -1,0 +1,238 @@
+.mgr-5{
+  margin-right: 5px;
+}
+.mgt-10{
+  margin-top: 10px !important;
+}
+.mgt-20{
+  margin-top: 20px !important;
+}
+.red{
+  color: red;
+  &:hover{
+    color: #ab2323;
+  }
+}
+#wapper_page_attributes{
+  table{
+    thead{
+      border: 1px solid #f2f2f2;
+    }
+    tbody{
+      tr{
+        background-color: #f9f9f9;
+      }
+    }
+  }
+}
+
+
+// siderbar admin
+.panel_custom{
+  .panel-heading{
+    position: relative !important;
+    span.icon_right{
+      position: absolute ;
+      right: 25px;
+      border: 1px solid #7098bf;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      i{
+        padding-left: 3px;
+        color: #72777c;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .panel-body{
+    text-align: right !important;
+    input{
+      display: inline-block;
+    }
+   // display: none;
+  }
+}
+
+.page-header{
+  a{
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+    transition: .2s;
+    &:hover{
+      border-color: #008EC2;
+      background: #00a0d2;
+      color: #fff;
+    }
+  }
+}
+
+// tabs product
+.wapper_tab{
+  border: 1px solid #eee;
+  margin: 5px 0 12px 0;
+  .tabs-left{
+    //border: 1px solid #eee;
+    border: none;
+    .active{
+      li{
+        margin: 0 !important;
+      }
+      a{
+        color: #555;
+        position: relative;
+        background-color: #eee !important;
+        border-radius: unset;
+        margin: unset;
+        border: none !important;
+        border-bottom: 1px solid #ddd !important;
+        &:hover{
+          background-color: unset;
+          border-radius: unset;
+          cursor: pointer !important;
+        }
+      }
+
+    }
+    li{
+      margin: 0 !important;
+      a{
+        border: none;
+        border-bottom: 1px solid #ddd;
+        &:hover{
+          background-color: unset;
+          border-radius: unset;
+          color: #00a0d2;
+        }
+      }
+    }
+  }
+  .tabs-left {
+    border-right: 1px solid #ddd;
+  }
+  .tabs-left>li {
+    float: none;
+    margin-bottom: 2px;
+  }
+  .tabs-left>li {
+    margin-right: -1px;
+  }
+  .tabs-right>li {
+    margin-left: -1px;
+  }
+  .tabs-left>li>a {
+    border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    display:block;
+  }
+
+  .tab-content{
+    margin-top: 12px;
+    label{
+      font-weight: normal;
+    }
+    input, input[type="date"]{
+      padding: 3px !important;
+      width: 200px;
+      line-height: unset;
+    }
+    input[type="checkbox"]{
+      width: unset;
+      padding-left: 3px;
+    }
+    .schedule{
+      color: #428bca;
+      &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    .form-check{
+      display: inline-block !important;
+      float: left !important;
+      font-size: 16px;
+      label{
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+
+#content_header_product{
+  #print_link{
+    //margin-top: 20px !important;
+    display: inline-block;
+    position: relative;
+    border: none;
+    margin-left: 10px;
+    &:hover{
+      border: none;
+      background-color:unset;
+    }
+    &:before{
+      content: "\f02f";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      /*--adjust as necessary--*/
+      color: #000;
+      font-size: 30px;
+      padding-right: 0.5em;
+      position: absolute;
+      top: -6px;
+      left: 0;
+    }
+  }
+}
+
+#pagination{
+  text-align: center !important;
+  ul{
+    li{
+      display: inline-block !important;
+      a,span{
+        padding: 6px 12px;
+        margin-left: -1px;
+        line-height: 1.42857143;
+        color: #337ab7;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: .2s;
+        &:hover{
+          color: #23527c;
+          background-color: #eee;
+          border-color: #ddd;
+        }
+      }
+    }
+
+    .active{
+      span{
+        color: #fff;
+        cursor: default;
+        background-color: #337ab7;
+        border-color: #337ab7;
+      }
+    }
+  }
+}
